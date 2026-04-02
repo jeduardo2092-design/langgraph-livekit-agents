@@ -14,3 +14,9 @@ dependencies = [
     "livekit-plugins-silero>=0.7.4",
     "python-dotenv>=1.0.1",
 ]
+
+[dependency-groups]
+dev = [
+    "pytest>=9.0.2",
+    "pytest-codspeed>=4.3.0",
+]
